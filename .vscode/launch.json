@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InvertirArray",
+            "request": "launch",
+            "mainClass": "InvertirArray",
+            "projectName": "Scripts sueltos Java_83d36371"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
