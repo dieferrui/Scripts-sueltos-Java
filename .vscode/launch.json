@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximoDeArray",
+            "request": "launch",
+            "mainClass": "MaximoDeArray",
+            "projectName": "Scripts sueltos Java_83d36371"
+        },
+        {
+            "type": "java",
             "name": "SumaArrayInt",
             "request": "launch",
             "mainClass": "SumaArrayInt",
