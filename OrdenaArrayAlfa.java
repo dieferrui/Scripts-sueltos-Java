@@ -10,22 +10,16 @@ public class OrdenaArrayAlfa {
         int longitud = sc.nextInt();
         String[] arrayAlfa = new String[longitud];
 
-        System.out.println("Introduzca valores alfabéticos de Array: ");
+        System.out.println("Introduzca palabras para introducir al Array: ");
         for (int i = 0; i < longitud; i++) {
             arrayAlfa[i] = sc.nextLine();
         }
         
-
         // Ordenar Alfabéticamente
 
-        String[] alfaOrdenado = new String[longitud];
-        int control = 0;
+        String valorMenor;
+        for (int j = 0; j < longitud; j++) {
 
-        for (int i = 0; i < alfaOrdenado.length; i++) {
-            for (int j = 0; j < arrayAlfa.length; j++) {
-                control = Integer.hashCode(arrayAlfa[j].charAt(0));
-            }
-            System.out.println(control);
         }
 
         sc.close();
