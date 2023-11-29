@@ -27,5 +27,7 @@ public class OrdenaArrayAlfa {
             }
             System.out.println(control);
         }
+
+        sc.close();
     }
 }
