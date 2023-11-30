@@ -11,13 +11,13 @@ public class InvertirArray {
         int[] arrayNum = new int[longitud];
 
         System.out.println("Introduzca valores de Array: ");
-        for (int i = 0; i < longitud; i++) {
+        for (int i = 0; i < arrayNum.length; i++) {
             arrayNum[i] = sc.nextInt();
         }
 
         System.out.println("Su Array es la siguiente: ");
-        for (int i = 0; i < longitud; i++) {
-            if (i >= longitud - 1) {
+        for (int i = 0; i < arrayNum.length; i++) {
+            if (i >= arrayNum.length - 1) {
                 System.out.print(arrayNum[i]);
             } else {
                 System.out.print(arrayNum[i]);
@@ -30,13 +30,13 @@ public class InvertirArray {
         // Invertir Array
         int[] arrayInv = new int[longitud];
 
-        for (int j = 0; j < longitud; j++) {
+        for (int j = 0; j < arrayNum.length; j++) {
             arrayInv[j] = arrayNum[(arrayNum.length - 1) - j];
         }
 
         System.out.println("Su Array invertida es la siguiente: ");
-        for (int i = 0; i < longitud; i++) {
-            if (i >= longitud - 1) {
+        for (int i = 0; i < arrayNum.length; i++) {
+            if (i >= arrayNum.length - 1) {
                 System.out.print(arrayInv[i]);
             } else {
                 System.out.print(arrayInv[i]);

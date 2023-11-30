@@ -11,7 +11,7 @@ public class SumaArrayInt {
         int[] arrayNum = new int[longitud];
 
         System.out.println("Introduzca valores de Array: ");
-        for (int i = 0; i < longitud; i++) {
+        for (int i = 0; i < arrayNum.length; i++) {
             arrayNum[i] = sc.nextInt();
         }
 

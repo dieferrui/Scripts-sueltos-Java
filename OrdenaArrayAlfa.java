@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class OrdenaArrayAlfa {
 
@@ -11,15 +12,16 @@ public class OrdenaArrayAlfa {
         String[] arrayAlfa = new String[longitud];
 
         System.out.println("Introduzca palabras para introducir al Array: ");
-        for (int i = 0; i < longitud; i++) {
-            arrayAlfa[i] = sc.nextLine();
+        for (int i = 0; i < arrayAlfa.length; i++) {
+            arrayAlfa[i] = sc.next();
         }
         
         // Ordenar Alfabéticamente
 
-        String valorMenor;
-        for (int j = 0; j < longitud; j++) {
+        Arrays.sort(arrayAlfa);
 
+        for (String i : arrayAlfa) {
+            System.out.println(i);
         }
 
         sc.close();
