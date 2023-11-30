@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecorridoDobleArray",
+            "request": "launch",
+            "mainClass": "RecorridoDobleArray",
+            "projectName": "Scripts sueltos Java_83d36371"
+        },
+        {
+            "type": "java",
             "name": "OrdenaArrayAlfa",
             "request": "launch",
             "mainClass": "OrdenaArrayAlfa",
