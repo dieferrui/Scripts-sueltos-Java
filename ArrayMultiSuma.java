@@ -42,10 +42,10 @@ public class ArrayMultiSuma {
 
         for (int col3 = 0; col3 < 5; col3++) {
             for (int fil3 = 0; fil3 < 4; fil3++) {
-                totalColumna += granArray[col3][fil3];
+                totalColumna += granArray[fil3][col3];
 
                 if (fil3 == 3) {
-                    granArray[col3][4] = totalColumna;
+                    granArray[4][col3] = totalColumna;
                     totalColumna = 0;
                 }
             }
