@@ -58,6 +58,7 @@ public class ComparacionImprobable {
                 }
                 System.out.println();
             }
+            System.out.println();
 
             sonIguales = Arrays.deepEquals(arrayNum, arrayNum2);
             System.out.println(sonIguales);
