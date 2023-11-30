@@ -4,6 +4,8 @@ public class RecorridoDobleArray {
 
     public static void main(String[] args) {
 
+        // Inícialo, si te atreves
+        
         boolean sonIguales;
 
         do {
