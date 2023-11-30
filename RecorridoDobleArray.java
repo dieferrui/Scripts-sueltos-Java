@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Arrays;
 
 public class RecorridoDobleArray {
@@ -10,7 +9,6 @@ public class RecorridoDobleArray {
         do {
             double notRandy = Math.random() * 10 + 1;
             int randy = (int)notRandy;
-            Random rnd = new Random();
 
             int[][] arrayNum = new int[randy][];
 
