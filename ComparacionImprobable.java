@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class RecorridoDobleArray {
+public class ComparacionImprobable {
 
     public static void main(String[] args) {
 
         // Inícialo, si te atreves
-        
+
         boolean sonIguales;
 
         do {
