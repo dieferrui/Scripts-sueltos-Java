@@ -56,16 +56,16 @@ public class ArrayMultiSuma {
         // Pintamos el array
 
         for (int k = 0; k < granArray.length; k++) {
-                for (int l = 0; l < granArray[k].length; l++) {
-                    if (l == (granArray[k].length) - 1) {
-                        System.out.print(granArray[k][l]);
-                    } else {
-                        System.out.print(granArray[k][l]);
-                        System.out.print(" - ");
-                    }
-                    
+            for (int l = 0; l < granArray[k].length; l++) {
+                if (l == (granArray[k].length) - 1) {
+                    System.out.print(granArray[k][l]);
+                } else {
+                    System.out.print(granArray[k][l]);
+                    System.out.print(" - ");
                 }
-                System.out.println();
+                    
             }
+            System.out.println();
+        }
     }
 }
