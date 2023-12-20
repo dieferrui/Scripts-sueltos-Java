@@ -28,7 +28,7 @@ public class TrabajadorYProyecto {
         public Proyecto(String nombre, String descripcion) {
 
             this.nombre = nombre;
-            this.proyecto = proyecto;
+            this.descripcion = descripcion;
         }
     }
 }
